@@ -61,4 +61,4 @@ async def generate_role_based_logic_question(req: LogicRequest):
 
 # Run server
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8005)
+    uvicorn.run(app, host="0.0.0.0", port=10000)
